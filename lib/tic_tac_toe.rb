@@ -114,7 +114,7 @@ class TicTacToe
      winner=@board[won?.pop]
      return winner
    else
-     false
+     nil
    end
  end
  def play
