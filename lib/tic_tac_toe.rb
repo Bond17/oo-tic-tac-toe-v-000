@@ -115,9 +115,24 @@ class TicTacToe
      return winner
   end
  end
+ 
  def play
-
- end
+   moves=0
+   until moves==8
+  if won? != false
+    puts "Congratulations #{winner(board)}!"
+    break
+  end
+  if draw?
+    puts "Cat's Game!"
+    break
+  end
+  if over?
+    break
+  end
+  turn
+  moves+=1
+end
 
 
 end
