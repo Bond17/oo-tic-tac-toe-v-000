@@ -115,6 +115,9 @@ class TicTacToe
      false
    end
  end
+ def play
+
+ end
 
 
 end
