@@ -108,9 +108,10 @@ class TicTacToe
     false
   end
   end
+
  def winner
    if won? != false
-     return won?[0]
+     return won?[0].pop
    else
      false
    end
