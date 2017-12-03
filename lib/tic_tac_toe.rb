@@ -133,6 +133,6 @@ class TicTacToe
   turn
   moves+=1
 end
-
+end
 
 end
