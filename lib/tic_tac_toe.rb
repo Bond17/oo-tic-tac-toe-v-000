@@ -106,7 +106,7 @@ class TicTacToe
   end
  def winner
    if won? != false
-     return
+     return won?[0]
    else
      false
    end
