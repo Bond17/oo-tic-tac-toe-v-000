@@ -309,7 +309,7 @@ describe './lib/tic_tac_toe.rb' do
         expect(game.winner).to eq("O")
       end
 
-      
+
     end
   end
 end
